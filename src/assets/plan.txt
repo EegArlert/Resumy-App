@@ -1,0 +1,21 @@
+CV Builder App Functionality :
+
+-- Take user input on CV sections and display the finished CV format once user submit the input form
+-- Edit the submitted form
+-- Download the CV to their local device
+
+
+Components:
+
+--| Header
+    --| NavBar
+--| Main
+    --| Form Inputs
+        --| General Information
+        --| Education
+        --| Experience
+        --| Project
+    --| Display CV
+--| Footer
+    --| My Info
+    --| Credit
