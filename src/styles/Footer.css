@@ -1,0 +1,14 @@
+.footer-w {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 50px;
+}
+
+.footer-p-w {
+    font-size: 1.3rem;
+    margin: 5px 0;
+}
+

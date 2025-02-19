@@ -1,0 +1,19 @@
+.general-info-display-w {
+    width: 100%;
+    padding: 5px;
+    background-color: #FFF;
+}
+
+.general-info-display-w .full-name {
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.general-info-display-w .other-info {
+    font-size: 16px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;   
+}

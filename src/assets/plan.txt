@@ -5,17 +5,44 @@ CV Builder App Functionality :
 -- Download the CV to their local device
 
 
-Components:
+App Structure
 
---| Header
-    --| NavBar
---| Main
-    --| Form Inputs
-        --| General Information
-        --| Education
-        --| Experience
-        --| Project
-    --| Display CV
---| Footer
-    --| My Info
-    --| Credit
+--| App 
+    --| Home page
+        --| Header
+            --| NavBar
+        --| Footer
+            --| My Info
+            --| Credit
+    --| Resume Builder Page
+        --| Header
+            --| NavBar
+        --| Main
+            --| Display CV Button
+            --| Form Inputs
+                --| General Information Section
+                --| Education Section 
+                --| Experience Section 
+                --| Project Section
+        --| Footer
+            --| My Info
+            --| Credit
+    --| Finished Resume Page
+        --| Header
+            --| NavBar
+        --| Main
+            --| Download Button
+            --| Edit Button
+        --| Footer
+            --| My Info
+            --| Credit
+
+
+Components: Header
+-- Header will contain title and a one sentence short description of advertising the App
+
+Components: NavBar
+-- Navbar will have two page that can be traverse to, home page and resume builder page
+-- This will live as part of Header
+
+Components Main

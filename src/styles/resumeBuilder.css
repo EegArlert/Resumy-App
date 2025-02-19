@@ -1,0 +1,21 @@
+.resume-builder-w {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    flex: 1 0 auto;
+}
+
+/* .form-input-w {
+    background-color: antiquewhite;
+    width: 50%;
+    height: 100%;
+    
+}
+
+.form-display-w {
+    background-color: aqua;
+    width: 50%;
+    height: 100%;
+} */

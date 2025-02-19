@@ -1,0 +1,47 @@
+.exp-form-container-w {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    align-items: center;
+    width: 100%;
+    height: 450px;
+    padding: 15px;
+    transform: translate(0, -10px);
+}
+
+.exp-form-container-w h2 {
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 10px;
+    border-bottom: solid 1px #000;
+    transform: translate(0, -10px);
+}
+
+.exp-info-w {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.add-exp-w {
+    align-self: end;
+    margin: 10px;
+}
+
+.add-exp-btn {
+    align-self: end;
+    width: 150px;
+    height: 30px;
+    border: none;
+    transition: box-shadow;
+    border: solid 1px #000;
+    border-radius: 5px;
+}
+
+.add-exp-btn:hover{
+    box-shadow: inset 0px 0px 27px 2px rgba(0,0,0,0.15);
+
+}

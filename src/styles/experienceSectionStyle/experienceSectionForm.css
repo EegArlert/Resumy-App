@@ -1,0 +1,75 @@
+.experience-card-w {
+    display: grid;
+    align-items: center;
+    justify-items: start;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr) 5fr;
+}
+
+.experience-card-w div {
+    margin: 5px;
+    width: 100%;
+    display: flex;
+}
+
+.experience-card-w label {
+    padding: 0 10px;
+    width: 120px;
+    align-self: center;
+}
+
+.experience-card-w input {
+    justify-self: end;
+    width: 55%;
+    padding: 4px
+}
+
+.job-status-w {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.job-status-w label {
+    width: 200px;   
+}
+
+.job-status-w input {
+    width: 20px;
+    transform: translate(-30px, 0);
+}
+
+.job-start-w {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.job-end-w {
+    grid-column: 2 / 3 ;
+    grid-row: 2 / 3;
+}
+
+.job-desc-w {
+    grid-column: 1 / 3;
+    grid-row: 4 / 5;
+    height: 100%;
+    padding-top: 10px;
+}
+
+.job-desc-w label {
+    width: fit-content;
+}
+
+.job-desc-w textarea {
+    width: 400px;
+    height: 200px;
+    transform: translate(30px, 0);
+    padding: 10px;
+}
+
+
+
+
+
