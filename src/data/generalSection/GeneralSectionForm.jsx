@@ -25,7 +25,6 @@ const GeneralSectionForm = ({data, onUpdate}) => {
 
   return (
     <div className='general-info-input-w'>
-      <h2 className='general-info-h2'>General Info</h2>
       <div className='f-name-w'>
         <label htmlFor="f-name-input">First Name</label>
         <input

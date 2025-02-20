@@ -3,7 +3,6 @@ import '../../styles/experienceSectionStyle/experienceSectionForm.css'
 
 const ExperienceSectionForm = ({data, onUpdate}) => {
 
-
     /*
       1. check if has more than one experience
       2. check if the currentJobStatus is false, if so, then let the workEndDate to be disabled
